@@ -24,6 +24,7 @@ let body = `
 `
 
 export async function handler (req: object) {
+  console.log(Deno.version)
   return {
     statusCode: 200,
     headers: {
